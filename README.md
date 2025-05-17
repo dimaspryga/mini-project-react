@@ -1,13 +1,24 @@
-# React + Vite
+📚 Daftar Library yang Digunakan, Library / Tools	Keterangan:
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> React	Library utama untuk membangun antarmuka pengguna.
+> React Router DOM	Untuk navigasi dan routing antar halaman.
+> Tailwind CSS	Utility-first CSS framework untuk styling.
+> Axios	Library untuk melakukan HTTP request ke API.
+> Vite / CRA (Create React App)	Build tool modern yang cepat untuk proyek React.
+> ESLint & Prettier (opsional)	Untuk memastikan konsistensi dan kualitas kode.
 
-Currently, two official plugins are available:
+==================================================================================================================================================
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+✨ Fitur Tambahan di Luar Requirement Utama, Berikut adalah fitur tambahan yang telah diimplementasikan dalam proyek ini:
 
-## Expanding the ESLint configuration
+> Search User by Name, Pengguna dapat mencari data user berdasarkan nama melalui input pencarian yang memfilter data secara real-time.
+> Reusable Components (Navbar & Footer), Komponen Navbar dan Footer dibuat reusable agar mudah digunakan di berbagai halaman.
+> Responsive Design, Tampilan antarmuka dirancang agar responsif di berbagai ukuran layar (mobile, tablet, dan desktop) menggunakan Tailwind CSS.
+> Custom Hook, Menggunakan custom hook untuk memisahkan logic dari komponen, meningkatkan keterbacaan dan reusabilitas kode.
+> Breadcrumb Navigation, Menampilkan breadcrumb sebagai petunjuk navigasi agar pengguna tahu posisi halaman saat ini dalam struktur aplikasi.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# mini-project-react
+==================================================================================================================================================
+
+🔗 Link Repository
+
+> GitHub Repository: https://github.com/dimaspryga/mini-project-react
