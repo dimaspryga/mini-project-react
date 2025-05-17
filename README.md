@@ -7,7 +7,7 @@
 > Vite / CRA (Create React App)	Build tool modern yang cepat untuk proyek React.
 > ESLint & Prettier (opsional)	Untuk memastikan konsistensi dan kualitas kode.
 
-==================================================================================================================================================
+===========================================================================
 
 ✨ Fitur Tambahan di Luar Requirement Utama, Berikut adalah fitur tambahan yang telah diimplementasikan dalam proyek ini:
 
@@ -17,7 +17,7 @@
 > Custom Hook, Menggunakan custom hook untuk memisahkan logic dari komponen, meningkatkan keterbacaan dan reusabilitas kode.
 > Breadcrumb Navigation, Menampilkan breadcrumb sebagai petunjuk navigasi agar pengguna tahu posisi halaman saat ini dalam struktur aplikasi.
 
-==================================================================================================================================================
+===========================================================================
 
 🔗 Link Repository
 
