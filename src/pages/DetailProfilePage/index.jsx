@@ -24,7 +24,7 @@ const DetailProfilePage = () => {
         <h1 className="text-3xl font-bold mb-8 text-center">Detail Profile</h1>
 
         {user ? (
-          <div className="bg-white rounded-xl shadow-lg p-8 flex flex-col sm:flex-row items-center sm:items-start gap-8">
+           <div className="bg-white rounded-xl shadow-lg p-8 flex flex-col sm:flex-row items-center sm:items-start gap-8">
             <img
               src={user.avatar}
               alt={user.first_name}
@@ -39,13 +39,13 @@ const DetailProfilePage = () => {
               </h2>
               <p className="text-gray-600 mt-2">{user.email}</p>
 
-              <p className="mt-4 text-gray-700 text-sm leading-relaxed whitespace-pre-line text-justify">
+              <p className="mt-4 mb-4 text-gray-700 text-sm leading-relaxed whitespace-pre-line text-justify">
                 {userDescription}
               </p>
 
               <button
                 onClick={handleBack}
-                className="mt-6 px-4 py-2 bg-lime-500 text-white rounded-lg hover:bg-lime-400 transition"
+                className="text-sm mt-2  py-2 px-5 text-lime-600 hover:text-white border border-lime-500 hover:bg-lime-500 rounded-md transition-colors"
               >
                 Back
               </button>
