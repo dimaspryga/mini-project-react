@@ -4,9 +4,9 @@ import { Link } from "react-router-dom";
 
 const LandingPage = () => {
   return (
-    <>
+    <div className="min-h-screen flex flex-col">
       <Navbar />
-      <section className="min-h-screen flex flex-col items-center justify-center bg-gradient-to-br from-lime-100 via-white to-lime-50 px-4">
+      <main className="flex-grow flex items-center justify-center bg-gradient-to-br from-lime-100 via-white to-lime-50 px-4">
         <div className="max-w-2xl text-center">
           <h1 className="text-4xl md:text-5xl font-bold text-gray-800 mb-6 leading-tight">
             Welcome to Mini Project APP
@@ -16,14 +16,17 @@ const LandingPage = () => {
             frontend built with React and Tailwind CSS.
           </p>
           <div className="flex justify-center gap-4">
-            <Link to={"/login"} className="px-6 py-3 border border-lime-500 text-lime-500 font-medium rounded-lg hover:bg-lime-50 transition">
+            <Link 
+              to="/login" 
+              className="px-6 py-3 border border-lime-500 text-lime-500 font-medium rounded-lg hover:bg-lime-50 transition"
+            >
               Get Started
             </Link>
           </div>
         </div>
-      </section>
+      </main>
       <Footer />
-    </>
+    </div>
   );
 };
 

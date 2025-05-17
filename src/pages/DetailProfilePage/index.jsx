@@ -7,9 +7,9 @@ const DetailProfilePage = () => {
   const { user, userDescription, handleBack } = useDetailUser();
 
   return (
-    <>
+    <div className="min-h-screen flex flex-col">
       <Navbar />
-      <div className="max-w-4xl mx-auto px-4 py-10">
+      <main className="flex-grow max-w-4xl mx-auto px-4 py-10 w-full">
         <nav className="text-sm text-gray-500 mb-6">
           <Link to="/home" className="hover:underline text-lime-500">
             Home
@@ -31,7 +31,7 @@ const DetailProfilePage = () => {
               className="w-40 h-40 rounded-full object-cover border-4 border-lime-500"
             />
             <div className="text-center sm:text-left">
-              <p className="mt-4 font-semibold text-gray-500 text-sm Z">
+              <p className="mt-4 font-semibold text-gray-500 text-sm">
                 User ID : {user.id}
               </p>
               <h2 className="text-2xl font-semibold">
@@ -52,11 +52,13 @@ const DetailProfilePage = () => {
             </div>
           </div>
         ) : (
-          <p className="text-center text-gray-500">Loading user data...</p>
+          <div className="flex items-center justify-center h-full">
+            <p className="text-center text-gray-500">Loading user data...</p>
+          </div>
         )}
-      </div>
+      </main>
       <Footer />
-    </>
+    </div>
   );
 };
 
