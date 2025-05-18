@@ -22,3 +22,7 @@
 🔗 Link Repository
 
 > GitHub Repository: https://github.com/dimaspryga/mini-project-react
+
+🔗 Link Vercel
+
+> https://mini-project-react-rho.vercel.app/
