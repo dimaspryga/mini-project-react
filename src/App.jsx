@@ -5,7 +5,7 @@ import LoginPage from "./pages/LoginPage";
 import RegisterPage from "./pages/RegisterPage";
 import ProtectedRoute from "./component/ProtectedRoute";
 import LogoutPage from "./pages/LogoutPage";
-import LandingPage from "./pages/Landingpage";
+import LandingPage from "./pages/LandingPage";
 
 const App = () => {
   return (
